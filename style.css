@@ -2,37 +2,83 @@ body{
     margin: 0px;
     padding: 0px;
     border: 0px;
+    content: 0px;
 }
 .container{
     display: flex;
     height: 100vh;
 }
-fieldset{
+
+.side{
     display: flex;
     flex-direction: column;
 }
-fieldset>div{
-    display: flex;
-}
-.leaf{
-    background-size: cover;
-}
-p{
-    background-color: rgb(221, 212, 212);
-    padding: 150px  50px 50px;
+#top{
+    background-color: rgb(241, 234, 234);
+    padding: 80px  50px 50px;
     margin: 0px;
 }
+#middle{
+    background-color: white;
+    display: flex;
+    padding: 10px 50px;
+    gap:10px
+    
+}
+#first-form,#second-form,#third-form{
+    display: flex;
+    gap: 100px;
+}
+#bottom{
+    background-color: rgb(245, 243, 243);
+    padding: 60px 10px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    background-color: #596D48;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 50px;  
+    border-radius: 5px; 
+}
+.account{
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+#text{
+   margin: 20px 10px;  
+}
+.image1 {
+    width: 100%;
+    height: auto;
+    position: relative; 
+    z-index: 1; 
+}
+  
+input:focus{
+    border-color:rgba(38, 0, 255, 0.308) ;
+    background-color: rgb(41, 175, 219);
+}
 input{
-    border: 2px solid #000;
+  border: 2px solid #E5E7EB;
   margin-bottom: 15px;
   padding: 5px;
   border-radius: 5px;
 }
+a{
+    text-decoration: none;
+    color: green;
+}
 
-input:invalid{
+input:valid{
+    border-color: green;
+}
+/* input:invalid{
     border-color: red;
-}
-input:focus{
-    border-color:rgba(38, 0, 255, 0.308) ;
-    background-color: lightblue;
-}
+} */
+
