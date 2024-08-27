@@ -22,9 +22,7 @@ body{
     background-color: white;
     display: flex;
     padding: 10px 50px;
-    box-shadow: black;
-    gap:10px
-    
+    box-shadow: 10px 5px 5px red;  
 }
 #first-form,#second-form,#third-form{
     display: flex;
@@ -69,7 +67,7 @@ span{
     height: 200px;
     background-color:  rgb(0, 0, 0);
     opacity: 0.5;
-    width: 490px;
+    width: 475px;
     top: 200px;
     z-index: 2;
 }
@@ -80,7 +78,7 @@ span{
 }
 .credit{
  position: absolute;
- top: 115vh;
+ top: 100vh;
  left: 100px;
  z-index: 3;
  color: white;
@@ -88,6 +86,7 @@ span{
 input:focus{
     border-color:rgba(38, 0, 255, 0.308) ;
     background-color: rgb(41, 175, 219);
+    box-shadow: 10px 5px 5px rgb(150, 147, 147);  
 }
 input{
   border: 2px solid #E5E7EB;
@@ -99,11 +98,10 @@ a{
     text-decoration: none;
     color: green;
 }
-
 input:valid{
     border-color: green;
 }
-/* input:invalid{
+input:invalid{
     border-color: red;
-} */
+}
 
